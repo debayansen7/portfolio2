@@ -1,10 +1,25 @@
 {
   "name": "portfolio",
   "version": "1.0.1",
+  "author": "Debayan Sen",
+  "description": "The best package you will ever find.",
+  "main": "index.js",
+  "repository": {
+    "url": "https://github.com/debayansen7/portfolio2",
+    "type": "git"
+  },
+  "license": "MIT",
   "private": true,
   "dependencies": {
+    "bootstrap": "^3.3.7",
+    "material-ui": "^0.20.0",
+    "moment": "^2.19.1",
     "react": "^16.0.0",
+    "react-bootstrap": "^0.31.5",
     "react-dom": "^16.0.0",
+    "react-loading": "^1.0.1",
+    "react-modal": "^3.1.2",
+    "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.17"
   },
   "scripts": {
