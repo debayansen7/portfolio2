@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
+import 'typeface-roboto';
 // import { Switch, Route, withRouter } from 'react-router-dom';
 import Router from './router';
 
@@ -16,9 +19,11 @@ import Debayansen from  './assets/debayansen';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Router/>
-      </div>
+      <MuiThemeProvider>
+        <div className="App">
+          <Router/>
+        </div>
+      </MuiThemeProvider>
     );
   }
 }
