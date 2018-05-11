@@ -1,9 +1,14 @@
 import React, { Component } from 'react';
+// import {personal_details} from '../assets/debayansen';
+
 
 class ContactMe extends Component {
     render() {
         return (
-            <section>ContactMe here</section>
+            <section>
+              Contact Info:
+
+            </section>
         )
     }
 
