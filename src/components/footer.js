@@ -4,14 +4,10 @@ import { Nav, Navbar, NavItem } from 'react-bootstrap';
 class Footer extends Component {
   render(){
     return(
-      <header>
-        <Navbar>
-          Footer here
-          <Nav className="container">
-            <NavItem eventKey={1} >Copy Right @ Debayan Sen</NavItem>
-          </Nav>
-        </Navbar>
-      </header>
+      <footer className="container">
+        Footer here Copy Right @ Debayan Sen
+
+      </footer>
     );
   }
 }

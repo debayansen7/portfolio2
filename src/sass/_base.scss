@@ -1,16 +1,21 @@
 *{
   background-color: $defaultBackGroundColor;
-  color: $defaultColor;
+  color: $defaultTextColor;
   font-family: $fontFamily;
   font-size: $fontSize;
   padding: 0px;
   margin: 0px;
 }
 
-.header{
+header{
 
 }
 
-.footer{
+footer{
+  padding: 2px;
+  text-align: center;
+}
 
+.container{
+  text-align: center;
 }
